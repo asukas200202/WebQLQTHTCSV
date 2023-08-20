@@ -1,0 +1,52 @@
+.title {
+    height: 200px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background-color: rgb(7, 152, 152);
+    color: white;
+}
+.nav-filter {
+    width: 100%;
+    display: flex;
+    gap: 20px;
+    padding: 20px 10px; width: 80%;
+    margin: 0 auto;
+}
+
+
+.time-table {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 80px 0px;
+}
+
+
+.time-table table {
+    border: none;
+    min-width: 90%;
+}
+
+.time-table tbody tr:nth-child(1) {
+    height: 40px;
+    background-color: #3C58B6;
+}
+
+.time-table tbody tr:nth-child(1) td {
+    text-align: center;
+    color: white;
+    border: none;
+}
+
+.time-table tbody tr:nth-child(2), tr:nth-child(3), tr:nth-child(4) {
+    height: 200px;
+    
+}
+
+.time-table tbody tr:nth-child(2) td, tr:nth-child(3) td, tr:nth-child(4) td {
+    text-align: center;
+    border: 1px solid #ddd!important; 
+}

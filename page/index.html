@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="refresh" content="1800" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="../icon/themify-icons-font/themify-icons/themify-icons.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/styles.css">
+    <link rel="shortcut icon" href="../img/LOGO.png" type="image/x-icon">
+    <title>Trang chủ quản lý sinh viên </title>
+</head>
+<body>
+    <div>
+        <div id="header">
+            <!-- Begin nav -->
+            <ul id="nav">
+                <li><a href="#">Trang Chủ</a></li>
+                <li><a href="#chitieu">Thống Kê</a></li>
+                <li><a href="#contact">Liên Hệ</a></li>
+                <li><a href="./hotro.html">Hỗ Trợ Học Tập</a></li>
+                <li>
+                    <a href="#">
+                        Tiện ích
+                        <i class="nav-arrow-down ti-angle-down"></i>
+                    </a>
+                    <ul class="subnav">
+                        <li><a href="./dkmh.html">Danh sách môn</a></li>
+                        <li><a href="./tkb.html">Thời Khóa Biểu</a></li>
+                        <li><a href="./ds.html">Điểm Số</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <!-- Search -->
+                    <div class="search">
+                        <form action="" class="search-bttn">
+                            <input type="text" id="kw" oninput="searchData()" placeholder="Tìm Kiếm">
+                            <button class="search-icon" id="btnsearch" type="button" name="Tìm Kiếm">
+                                <i class="ti-search" aria-hidden="true"></i>
+                            </button>
+                        </form>
+                        <!-- End search-->
+                    </div>
+                </li>
+            </ul>
+            <div class="signin">
+                <a href="login.html" target="_blank">
+                    <i class="signin-icon ti-user"></i>
+                    <span>Đăng Nhập</span>
+                </a>
+            </div>
+            <div class="shop-icon" style="visibility: hidden;">
+                <i class="ti-shopping-cart"></i>
+                <span>0</span>
+            </div>
+            <div id="mobile-menu" class="mobile-menu-btn">
+                <i class="ti-menu"></i>
+            </div>
+            <!-- End nav-->
+        </div>
+        <div id="slider">
+            <div class="sliders">
+                <!-- button radio start -->
+                <input type="radio" name="radio-button" id="radio1" checked>
+                <input type="radio" name="radio-button" id="radio2">
+                <input type="radio" name="radio-button" id="radio3">
+                <input type="radio" name="radio-button" id="radio4">
+                <!--radio end-->
+                <!-- img start -->
+                <div class="slide first">
+                    <img src="../img/hình 1.jpg" alt="1">
+                </div>
+                <div class="slide">
+                    <img src="../img/a11.jpg" alt="2">
+                </div>
+                <div class="slide">
+                    <img src="../img/bank1.gif" alt="3">
+                </div>
+                <div class="slide">
+                    <img src="../img/bank2.jpg" alt="4">
+                </div>
+            </div>
+            <!-- manual navigation-start -->
+            <div class="navigation-manual">
+                <label for="radio1" class="manual-btn"></label>
+                <label for="radio2" class="manual-btn"></label>
+                <label for="radio3" class="manual-btn"></label>
+                <label for="radio4" class="manual-btn"></label>
+            </div>
+            <!-- manual navigation-end -->
+        </div>
+        <div id="content">
+            <div class="box-text">
+                <h1>
+                    <img src="../img/LOGO.png" alt="">
+                    <h3>HO CHI MINH CITY OPEN UNIVERSITY</h3>
+                </h1>
+                <!-- <div class="phucvu">
+                    <span>Chuyên nghiệp</span>
+                    <span>Hiện đại</span>
+                    <span>Tư vấn </span>
+                </div> -->
+            </div>
+        </div>
+        <div class="section-1">
+            <div class="vision section-horizontal">
+                <div class="image">
+                    <img src="https://ou.edu.vn/wp-content/uploads/2020/06/IMG_2667.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h2>Tầm nhìn</h2>
+                    <p>Tầm nhìn của Đại học Mở là trở thành một trung tâm giáo dục đại học hàng đầu và phổ biến trên toàn cầu, cung cấp cơ hội học tập và phát triển cho mọi người, bất kể địa điểm, tuổi tác, hoặc tình trạng kinh tế. Đại học Mở mong muốn xây dựng một mô hình giáo dục linh hoạt, tiếp cận mở rộng và phù hợp với nhu cầu của học viên.
+                        Đại học Mở có tầm nhìn xa hơn là không chỉ cung cấp giáo dục cho các học viên, mà còn thúc đẩy sự đổi mới và thay đổi trong ngành giáo dục. Đại học Mở tin rằng công nghệ và phương pháp học tập mới có thể cung cấp những trải nghiệm học tập tốt hơn và đáp ứng tốt hơn nhu cầu của học viên trong thế giới ngày càng phát triển và kỹ thuật số hóa.
+                    </p>
+                </div>
+            </div>
+            <div class="mission section-horizontal">
+                <div class="content">
+                    <h2>Sứ mệnh</h2>
+                    <p>Sứ mệnh của Đại học Mở là mang lại những cơ hội học tập chất lượng cao và tiếp cận kiến thức cho mọi người trên toàn thế giới. Đại học Mở cam kết mở rộng đường lối giáo dục truyền thống bằng cách sử dụng công nghệ và phương pháp học tập mới để tạo ra môi trường học tập linh hoạt và tiện lợi. Đại học Mở tập trung vào việc cung cấp các khóa học đa dạng và linh hoạt, cho phép học viên tự điều chỉnh tốc độ học tập và lựa chọn nội dung học tập phù hợp với mục tiêu và sở thích cá nhân.</p>
+                </div>
+                <div class="image">
+                    <img src="https://ou.edu.vn/wp-content/uploads/2022/04/IMG_9621.jpg" alt="">
+                </div>
+            </div>
+        </div>
+
+
+        <section class="courses">
+            <div class="title-line">
+                <h2>CÁC HÌNH ẢNH SINH HOẠT CỦA SINH VIÊN</h2>
+            </div>
+            <div class="sp clear">
+                <div class="item">
+                    <div class="img">
+                        <img src="../img/a1.jpg" alt="senda">
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="img">
+                        <img src="../img/a2.jpg" alt="senda">
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="img">
+                        <img src="../img/a3.jpg" alt="senda">
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="img">
+                        <img src="../img/a4.jpg" alt="senda">
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="img">
+                        <img src="../img/a5.jpg" alt="senda">
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="img">
+                        <img src="../img/a6.jpg" alt="senda">
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="img">
+                        <img src="../img/a7.jpg" alt="senda">
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="img">
+                        <img src="../img/a8.jpg" alt="senda">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="cart">
+            <form action="" class="carts">
+                <i class="ti-close"></i>
+                <h2>Cart</h2>
+                <div>
+                    <div class="tbody">                    
+                    </div>
+                    <div class="total">
+                        <p>Tổng Tiền:<span>0</span><sup>₫</sup></p>
+                    </div>
+                </div>
+            </form>
+        </section>
+        <div class="chart" id="chitieu">
+            <h2 class="chart-heading">DOANH SỐ HỌC SINH ĐẬU QUA CÁC NĂM TỪ 2013-2023</h2>
+            <div class="chart-layout">
+                <div class="chart-layout__item" style="--percent: 56%">56%</div>
+                <div class="chart-layout__item" style="--percent: 68%">68%</div>
+                <div class="chart-layout__item" style="--percent: 70%">70%</div>
+                <div class="chart-layout__item" style="--percent: 70%">70%</div>
+                <div class="chart-layout__item" style="--percent: 80%">80%</div>
+                <div class="chart-layout__item" style="--percent: 70%">70%</div>
+                <div class="chart-layout__item" style="--percent: 85%">85%</div>
+                <div class="chart-layout__item" style="--percent: 69%">69%</div>
+                <div class="chart-layout__item" style="--percent: 96%">96%</div>
+                <div class="chart-layout__item" style="--percent: 90%">90%</div>
+                <div class="chart-layout__item" style="--percent: 88%">88%</div>
+            </div>
+        </div>
+        <div id="contact">
+            <h2 class="section-heading">LIÊN HỆ VỚI CHÚNG TÔI</h2>
+            <p class="section-sub-heading">SẴN SÀNG HỖ TRỢ </p>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <p><i class="ti-location-pin"></i>97 Võ Văn Tần Quận 3, Thành Phố HCM</p>
+                    <p><i class="ti-mobile"></i>Phone: <a href="tell:+00 151515">+84967042099</a></p>
+                    <p><i class="ti-email"></i>Email: <a href="mailto:mail@mail.com">mailOU@mail.com</a></p>
+                </div>
+                <div class="contact-form">
+                    <form action="">
+                        <div class="row">
+                            <div class="col col-half col-full">
+                                <input type="text" name="" required placeholder="Name" id="text" class="form-control">
+                            </div>
+                            <div class="col col-half col-full">
+                                <input type="email" name="" required placeholder="Email" id="email"
+                                    class="form-control">
+                            </div>
+                        </div>
+                        <div class="mt-8">
+                            <div>
+                                <input type="text" name="" required placeholder="Message" class="form-control">
+                            </div>
+                        </div>
+                        <input class="btn full-width" type="submit" value="SEND">
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div id="footer">
+            <div class="margin-40 footer-logo">
+                <img src="../img/LOGO.png" alt="logo">
+            </div>
+            <div class="margin-40 footer-info">
+                <div>Follow US</div>
+                <div><a href="#"><i class="ti-instagram"></i>Instagram</a></div>
+                <div><a href="#"><i class="ti-facebook"></i>Facebook</a></div>
+                <div><a href="#"><i class="ti-youtube"></i>Youtube</a></div>
+                <div><a href="#"><i class="ti-pinterest"></i>Pinterest</a></div>
+                <div><a href="#"><i class="ti-twitter"></i>Twitter</a></div>
+                <div><a href="#"><i class="ti-linkedin"></i>Linkedin</a></div>
+            </div>
+            <div class="margin-40 footer-address">
+                <div>Address</div>
+                <p><i class="ti-location-pin"></i>97 Võ Văn Tần Quận 3, Thành Phố HCM</p>
+                <p><i class="ti-mobile"></i>Phone: <a href="tell:+0967136653">+84967042099</a></p>
+                <p><i class="ti-email"></i>Email: <a href="mailto:mail@mail.com">mailOU@mail.com</a></p>
+            </div>
+            <div class="margin-40 footer-map">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d501726.1645016953!2d106.07136337363603!3d10.754844330129616!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x317529292e8d3dd1%3A0xf15f5aad773c112b!2zSOG7kyBDaMOtIE1pbmgsIFRow6BuaCBwaOG7kSBI4buTIENow60gTWluaCwgVmnhu4d0IE5hbQ!5e0!3m2!1svi!2sus!4v1690198399058!5m2!1svi!2sus"
+                    width="250" height="250" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </div>
+        <div id="gotop">
+            <i class="ti-arrow-circle-up"></i>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+    <script src="../js/javascript.js"></script>
+</body>
+
+</html>

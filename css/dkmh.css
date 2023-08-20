@@ -1,0 +1,220 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {
+    scroll-behavior: smooth;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body {
+    background: none;
+}
+#header{
+    height: 60px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 10000;
+
+    background-color: rgb(236, 240, 236);
+    border-bottom: 1px solid rgb(243, 245, 241);
+}
+.search{
+    display: inline-block;
+    margin-left: 20px;
+    line-height: 60px;
+}
+#header.sticky {
+    background-color: rgb(240, 245, 242);
+    opacity: 0.8;
+}
+.margin-auto{
+    margin: auto;
+}
+.danhmuc{
+    position: relative;
+    right: 100px;
+    width: 10%;
+    font-weight: 600;
+}
+.danhmuc.fixed{
+    position: fixed;
+    top: 100px;
+    left: 50px;
+}
+.danhmuc span::after{
+    width: 50%;
+    content: "";
+    height: 2px;
+    background-color: rgb(247, 35, 7);
+    position: absolute;
+    bottom: -5px;
+    left: 0px;
+}
+.main {
+    margin: 10px 100px;
+    text-transform: capitalize;
+}
+.sp.clear {
+    margin-right: -100px;
+    margin-left: 100px;
+}
+
+.subject-list {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.subject-list .item {
+    flex-basis: 25%;
+    flex-shrink: 1;
+    min-width: 25%;
+    height: 400px!important;
+}
+
+.subject-list .item div:nth-child(1) {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+.subject-list .item:hover .buy{
+    opacity: 1;
+}
+
+.sp-title {
+    width: 100%;
+    padding: 5px;
+    margin-top: 60px;
+    text-align: center;
+    text-transform: uppercase;
+    background-color: #d1e6d6;
+}
+.flex {
+    display: flex;
+    list-style: none;
+    padding: 10px 50px;
+}
+.flex li a {
+    text-decoration: none;
+    color: #000;
+}
+
+.flex > li+li::before{
+    padding: 0 10px;
+    color: #ccc;
+    content: "/\00a0";
+}
+.list {
+    width: 100%;
+    margin: 20px;
+}
+#pagination {
+    border-radius: 5px;
+    width: 100%;
+    margin-bottom: 20px;
+}
+.list .list-page{
+    text-align: center;
+}
+.list-page .current{
+    border-bottom: 2px solid #4c7d4c;
+    color: #4c7d4c;
+    font-weight: bold;
+}
+.page-node {
+    padding: 0px 10px;
+    display: inline-block;
+    line-height: 56px;
+    color: #4c7d4c;
+}
+.list-page a {
+    text-decoration: none;
+    font-size: 17px;
+    position: relative;
+}
+.list-page a:hover{
+    font-weight: 600;
+    border-bottom: 2px solid #4c7d4c;
+}.list-page .ti-r::before{
+    font-size: 17px;
+    position: absolute;
+    right: -15px;
+}
+.list-page .ti-l::before{
+    font-size: 17px;
+    position: absolute;
+    left: -15px;
+}
+
+/*-----------Cart---------*/
+.cart {
+    position: fixed;
+    height: 500px;
+    width: 400px;
+    right: -100%;
+    top: 60px;
+    background-color: rgb(148, 207, 114);
+    padding: 12px 10px;
+    overflow-y: scroll;
+    transition: all 0.5s linear;
+}
+.carts {
+    width: 100%;
+    text-align: center;
+    padding-top: 14px;
+}
+.carts i{
+    cursor: pointer;
+    margin-left: -300px;
+    font-size: 18px;
+    font-weight: bold;
+}
+.carts h2{
+    margin-bottom: 30px;
+}
+.carts div.table-body{
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+}
+
+.cart .tbody {
+    max-height: 280px;
+    overflow-y: auto;
+}
+.table-body input{
+    width: 30px;
+    outline: none;
+}
+.table-body{
+    border-bottom: 1px solid #ddd;
+}
+.table-body div {
+    padding: 10px;
+}
+.total{
+    text-align: right;
+    font-weight: bold;
+    margin-top: 10px;
+}
+.dele {
+    cursor: pointer;
+    text-transform: capitalize;
+}
+
+.access-register {
+    background-color: rgb(16, 91, 7);
+    border-radius: 10px;
+    padding: 14px 0px;
+    color: white;
+    cursor: pointer;
+    position: absolute;
+    width: 90%;
+    bottom: 20px;
+    left: 5%;
+}

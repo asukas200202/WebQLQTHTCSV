@@ -1,0 +1,592 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../icon/themify-icons-font/themify-icons/themify-icons.css">
+    <link rel="shortcut icon" href="../img/217044178_4611055852262469_8264416624984732902_n.png" type="image/x-icon">
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/dkmh.css">
+    <link rel="stylesheet" href="../css/styles.css">
+    <link rel="stylesheet" href="../css/ds.css">
+    <link rel="shortcut icon" href="./img/LOGO.png" type="image/x-icon">
+    <title>Điểm Số</title>
+</head>
+<body>
+    <div>
+    <div id="header">
+        <!-- Begin nav -->
+        <ul id="nav">
+            <li><a href="./index.html">Trang Chủ</a></li>
+            <li><a href="./index.html#chitieu">Thống Kê</a></li>
+            <li><a href="./index.html#contact">Liên Hệ</a></li>
+            <li><a href="./hotro.html">Hỗ Trợ Học Tập</a></li>
+            <li>
+                <a href="#">
+                    Tiện ích
+                    <i class="nav-arrow-down ti-angle-down"></i>
+                </a>
+                <ul class="subnav">
+                    <li><a href="./dkmh.html">Danh sách môn</a></li>
+                    <li><a href="./tkb.html">Thời Khóa Biểu</a></li>
+                    <li><a href="./ds.html">Điểm Số</a></li>
+                </ul>
+            </li>
+        </ul>
+        <!-- Search -->
+        <div class="search">
+            <form action="" class="search-bttn">
+                <input type="text" id="kw" placeholder="Tìm Kiếm">
+                <button class="search-icon" id="btnsearch" type="button" name="Tìm Kiếm">
+                    <i class="ti-search" aria-hidden="true"></i>
+                </button>
+            </form>
+            <!-- End search-->
+        </div> 
+        <div class="signin">
+            <a href="login.html" target="_blank">
+                <i class="signin-icon ti-user"></i>
+                <span>Đăng Nhập</span>
+            </a>
+        </div>
+        <div class="shop-icon" style="visibility: hidden;">
+            <i class="ti-shopping-cart"></i>
+            <span>0</span>
+        </div>
+        <div id="mobile-menu" class="mobile-menu-btn">
+            <i class="ti-menu"></i>
+        </div>
+        <!-- End nav-->
+    </div>
+    <div class="sp-title">
+        <ul class="flex">
+            <li>
+                <a href="./index.html">TRANG CHỦ</a>
+            </li>
+            <li>
+                <span>DANH MỤC</span>
+            </li>
+            <li>
+                <span>Điểm Số</span>
+            </li>
+        </ul>
+    </div>
+    <section class="cart">
+        <form action="" class="carts">
+            <i class="ti-close"></i>
+            <h2>Cart</h2>
+            <div>
+                <div class="tbody">
+                </div>
+                <div class="total">
+                    <p>Tổng Tiền:<span>0</span><sup>₫</sup></p>
+                </div>
+            </div>
+        </form>
+    </section>
+    <div class="title">
+        <h1>Điểm các môn</h1>
+    </div>
+    <div class="nav-filter">
+        <div class="school-year">
+            <span>Năm học: </span>
+            <select>
+                <option value="volvo">2020 - 2021</option>
+                <option value="saab">2021 - 2022</option>
+                <option value="mercedes">2022 - 2023</option>
+                <option value="audi">2023 - 2024</option>
+            </select>
+        </div>
+        <div class="semester">
+            <span>Học kì: </span>
+            <select name="cars" id="cars">
+                <option value="volvo"><a href="#HKI">Học kì I</a></option>
+                <option value="saab"><a href="#HKII">Học kì II</a></option>
+                <option value="mercedes"><a href="#HKIII">Học kì III</a></option>
+            </select>
+        </div>
+    </div>
+    <!-- HKI -->
+    <div class="schedule"id='HKI'>
+        <div class="schedule-table">
+            <div class="schedule-table-header">
+                <div class="schedule-table-header-day">STT</div>
+                <div class="schedule-table-header-day">Tên Môn Học</div>
+                <div class="schedule-table-header-day">Số Tín Chỉ</div>
+                <div class="schedule-table-header-day">Điểm Quá Trình</div>
+                <div class="schedule-table-header-day">Điểm Thi</div>
+                <div class="schedule-table-header-day">Thang điểm 10</div>
+                <div class="schedule-table-header-day">Kết quả</div>
+            </div>
+            <div class="schedule-table-content">
+                <div class="schedule-table-content-row">
+                    <div class="schedule-table-content-day">
+                        <p>1</p>                                        
+                    </div>
+                    <div class="schedule-table-content-day">
+                        Thiết kế web
+                    </div>
+                    <div class="schedule-table-content-day">
+                        3
+                    </div>
+                    <div class="schedule-table-content-day">
+                        10
+                    </div>
+                    <div class="schedule-table-content-day">10</div>
+                    <div class="schedule-table-content-day">                  
+                        10
+                    </div>
+                    <div class="schedule-table-content-day">A+</div>
+                </div>
+                <div class="schedule-table-content-row">
+                    <div class="schedule-table-content-day"> 
+                        <p>2</p>                  
+                    </div>
+                    <div class="schedule-table-content-day">
+                        Lập trình giao diện
+                    </div>
+                    <div class="schedule-table-content-day">3</div>
+                    <div class="schedule-table-content-day">
+                        9
+                    </div>
+                    <div class="schedule-table-content-day">
+                        Chưa cập nhật
+                    </div>
+                    <div class="schedule-table-content-day">
+                        4.5
+                    </div>
+                    <div class="schedule-table-content-day">F</div>
+                </div>
+                <div class="schedule-table-content-row">
+                    <div class="schedule-table-content-day"> 
+                        <p>3</p>                  
+                    </div>
+                    <div class="schedule-table-content-day">
+                        Công nghệ phần mềm
+                    </div>
+                    <div class="schedule-table-content-day">3</div>
+                    <div class="schedule-table-content-day">
+                        9
+                    </div>
+                    <div class="schedule-table-content-day">
+                        Chưa cập nhật
+                    </div>
+                    <div class="schedule-table-content-day">
+                        4.5
+                    </div>
+                    <div class="schedule-table-content-day">F</div>
+                </div>
+                <div class="schedule-table-content-row">
+                    <div class="schedule-table-content-day"> 
+                        <p>4</p>                  
+                    </div>
+                    <div class="schedule-table-content-day">
+                        Kiểm thử phần mềm
+                    </div>
+                    <div class="schedule-table-content-day">4</div>
+                    <div class="schedule-table-content-day">
+                        7
+                    </div>
+                    <div class="schedule-table-content-day">
+                        8
+                    </div>
+                    <div class="schedule-table-content-day">
+                        7.5
+                    </div>
+                    <div class="schedule-table-content-day">B</div>
+                </div>
+                <div class="schedule-table-content-row">
+                    <div class="schedule-table-content-day"> 
+                        <p>5</p>                  
+                    </div>
+                    <div class="schedule-table-content-day">
+                        Cơ sở dữ liệu
+                    </div>
+                    <div class="schedule-table-content-day">4</div>
+                    <div class="schedule-table-content-day">
+                        8
+                    </div>
+                    <div class="schedule-table-content-day">
+                        8
+                    </div>
+                    <div class="schedule-table-content-day">
+                        8
+                    </div>
+                    <div class="schedule-table-content-day">B+</div>
+                </div>
+                <div class="schedule-table-content-row">
+                    <div class="schedule-table-content-day"> 
+                        <p>6</p>                  
+                    </div>
+                    <div class="schedule-table-content-day">
+                        Cơ sở dữ liệu phân tán
+                    </div>
+                    <div class="schedule-table-content-day">4</div>
+                    <div class="schedule-table-content-day">
+                        9
+                    </div>
+                    <div class="schedule-table-content-day">
+                        9
+                    </div>
+                    <div class="schedule-table-content-day">
+                        9
+                    </div>
+                    <div class="schedule-table-content-day">A</div>
+                </div>
+                <div class="schedule-table-content-row">
+                    <div class="schedule-table-content-day"> 
+                        <p>7</p>                  
+                    </div>
+                    <div class="schedule-table-content-day">
+                        Cơ sở dữ liệu nâng cao
+                    </div>
+                    <div class="schedule-table-content-day">3</div>
+                    <div class="schedule-table-content-day">
+                        6
+                    </div>
+                    <div class="schedule-table-content-day">
+                        6
+                    </div>
+                    <div class="schedule-table-content-day">
+                        6
+                    </div>
+                    <div class="schedule-table-content-day">C+</div>
+                </div>
+            </div>
+        </div>
+    </div>
+<!-- HKII -->
+    <div class="schedule"id='HKII'>
+        <div class="schedule-table">
+            <div class="schedule-table-header">
+                <div class="schedule-table-header-day">STT</div>
+                <div class="schedule-table-header-day">Tên Môn Học</div>
+                <div class="schedule-table-header-day">Số Tín Chỉ</div>
+                <div class="schedule-table-header-day">Điểm Quá Trình</div>
+                <div class="schedule-table-header-day">Điểm Thi</div>
+                <div class="schedule-table-header-day">Thang điểm 10</div>
+                <div class="schedule-table-header-day">Kết quả</div>
+            </div>
+            <div class="schedule-table-content">
+                <div class="schedule-table-content-row">
+                    <div class="schedule-table-content-day">
+                        <p>1</p>                                        
+                    </div>
+                    <div class="schedule-table-content-day">
+                        Khai phá dữ liệu
+                    </div>
+                    <div class="schedule-table-content-day">
+                        3
+                    </div>
+                    <div class="schedule-table-content-day">
+                        10
+                    </div>
+                    <div class="schedule-table-content-day">10</div>
+                    <div class="schedule-table-content-day">                  
+                        10
+                    </div>
+                    <div class="schedule-table-content-day">A+</div>
+                </div>
+                <div class="schedule-table-content-row">
+                    <div class="schedule-table-content-day"> 
+                        <p>2</p>                  
+                    </div>
+                    <div class="schedule-table-content-day">
+                        Pháp luật đại cương
+                    </div>
+                    <div class="schedule-table-content-day">3</div>
+                    <div class="schedule-table-content-day">
+                        9
+                    </div>
+                    <div class="schedule-table-content-day">
+                        Chưa cập nhật
+                    </div>
+                    <div class="schedule-table-content-day">
+                        4.5
+                    </div>
+                    <div class="schedule-table-content-day">F</div>
+                </div>
+                <div class="schedule-table-content-row">
+                    <div class="schedule-table-content-day"> 
+                        <p>3</p>                  
+                    </div>
+                    <div class="schedule-table-content-day">
+                        Lập trình cơ sở dữ liệu
+                    </div>
+                    <div class="schedule-table-content-day">3</div>
+                    <div class="schedule-table-content-day">
+                        9
+                    </div>
+                    <div class="schedule-table-content-day">
+                        Chưa cập nhật
+                    </div>
+                    <div class="schedule-table-content-day">
+                        4.5
+                    </div>
+                    <div class="schedule-table-content-day">F</div>
+                </div>
+                <div class="schedule-table-content-row">
+                    <div class="schedule-table-content-day"> 
+                        <p>4</p>                  
+                    </div>
+                    <div class="schedule-table-content-day">
+                        An toàn hệ thống thông tin
+                    </div>
+                    <div class="schedule-table-content-day">4</div>
+                    <div class="schedule-table-content-day">
+                        7
+                    </div>
+                    <div class="schedule-table-content-day">
+                        8
+                    </div>
+                    <div class="schedule-table-content-day">
+                        7.5
+                    </div>
+                    <div class="schedule-table-content-day">B</div>
+                </div>
+                <div class="schedule-table-content-row">
+                    <div class="schedule-table-content-day"> 
+                        <p>5</p>                  
+                    </div>
+                    <div class="schedule-table-content-day">
+                        Cơ sở dữ liệu
+                    </div>
+                    <div class="schedule-table-content-day">4</div>
+                    <div class="schedule-table-content-day">
+                        8
+                    </div>
+                    <div class="schedule-table-content-day">
+                        8
+                    </div>
+                    <div class="schedule-table-content-day">
+                        8
+                    </div>
+                    <div class="schedule-table-content-day">B+</div>
+                </div>
+                <div class="schedule-table-content-row">
+                    <div class="schedule-table-content-day"> 
+                        <p>6</p>                  
+                    </div>
+                    <div class="schedule-table-content-day">
+                        Tư tưởng Hồ Chí Minh
+                    </div>
+                    <div class="schedule-table-content-day">4</div>
+                    <div class="schedule-table-content-day">
+                        9
+                    </div>
+                    <div class="schedule-table-content-day">
+                        9
+                    </div>
+                    <div class="schedule-table-content-day">
+                        9
+                    </div>
+                    <div class="schedule-table-content-day">A</div>
+                </div>
+                <div class="schedule-table-content-row">
+                    <div class="schedule-table-content-day"> 
+                        <p>7</p>                  
+                    </div>
+                    <div class="schedule-table-content-day">
+                        Khởi nghiệp
+                    </div>
+                    <div class="schedule-table-content-day">3</div>
+                    <div class="schedule-table-content-day">
+                        6
+                    </div>
+                    <div class="schedule-table-content-day">
+                        6
+                    </div>
+                    <div class="schedule-table-content-day">
+                        6
+                    </div>
+                    <div class="schedule-table-content-day">C+</div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- HKIII -->
+    <div class="schedule"id='HKIII'>
+        <div class="schedule-table">
+            <div class="schedule-table-header">
+                <div class="schedule-table-header-day">STT</div>
+                <div class="schedule-table-header-day">Tên Môn Học</div>
+                <div class="schedule-table-header-day">Số Tín Chỉ</div>
+                <div class="schedule-table-header-day">Điểm Quá Trình</div>
+                <div class="schedule-table-header-day">Điểm Thi</div>
+                <div class="schedule-table-header-day">Thang điểm 10</div>
+                <div class="schedule-table-header-day">Kết quả</div>
+            </div>
+            <div class="schedule-table-content">
+                <div class="schedule-table-content-row">
+                    <div class="schedule-table-content-day">
+                        <p>1</p>                                        
+                    </div>
+                    <div class="schedule-table-content-day">
+                        Quản trị hệ cơ sở dữ liệu
+                    </div>
+                    <div class="schedule-table-content-day">
+                        3
+                    </div>
+                    <div class="schedule-table-content-day">
+                        10
+                    </div>
+                    <div class="schedule-table-content-day">10</div>
+                    <div class="schedule-table-content-day">                  
+                        10
+                    </div>
+                    <div class="schedule-table-content-day">A+</div>
+                </div>
+                <div class="schedule-table-content-row">
+                    <div class="schedule-table-content-day"> 
+                        <p>2</p>                  
+                    </div>
+                    <div class="schedule-table-content-day">
+                        Quản trị mạng
+                    </div>
+                    <div class="schedule-table-content-day">3</div>
+                    <div class="schedule-table-content-day">
+                        9
+                    </div>
+                    <div class="schedule-table-content-day">
+                        Chưa cập nhật
+                    </div>
+                    <div class="schedule-table-content-day">
+                        4.5
+                    </div>
+                    <div class="schedule-table-content-day">F</div>
+                </div>
+                <div class="schedule-table-content-row">
+                    <div class="schedule-table-content-day"> 
+                        <p>3</p>                  
+                    </div>
+                    <div class="schedule-table-content-day">
+                        Phân tích thiết kế hệ thống
+                    </div>
+                    <div class="schedule-table-content-day">3</div>
+                    <div class="schedule-table-content-day">
+                        9
+                    </div>
+                    <div class="schedule-table-content-day">
+                        Chưa cập nhật
+                    </div>
+                    <div class="schedule-table-content-day">
+                        4.5
+                    </div>
+                    <div class="schedule-table-content-day">F</div>
+                </div>
+                <div class="schedule-table-content-row">
+                    <div class="schedule-table-content-day"> 
+                        <p>4</p>                  
+                    </div>
+                    <div class="schedule-table-content-day">
+                        Chủ nghĩa xã hội khoa học
+                    </div>
+                    <div class="schedule-table-content-day">4</div>
+                    <div class="schedule-table-content-day">
+                        7
+                    </div>
+                    <div class="schedule-table-content-day">
+                        8
+                    </div>
+                    <div class="schedule-table-content-day">
+                        7.5
+                    </div>
+                    <div class="schedule-table-content-day">B</div>
+                </div>
+                <div class="schedule-table-content-row">
+                    <div class="schedule-table-content-day"> 
+                        <p>5</p>                  
+                    </div>
+                    <div class="schedule-table-content-day">
+                        Mạng máy tính (Nhập môn MMT)
+                    </div>
+                    <div class="schedule-table-content-day">4</div>
+                    <div class="schedule-table-content-day">
+                        8
+                    </div>
+                    <div class="schedule-table-content-day">
+                        8
+                    </div>
+                    <div class="schedule-table-content-day">
+                        8
+                    </div>
+                    <div class="schedule-table-content-day">B+</div>
+                </div>
+                <div class="schedule-table-content-row">
+                    <div class="schedule-table-content-day"> 
+                        <p>6</p>                  
+                    </div>
+                    <div class="schedule-table-content-day">
+                        Toán rời rạc
+                    </div>
+                    <div class="schedule-table-content-day">4</div>
+                    <div class="schedule-table-content-day">
+                        9
+                    </div>
+                    <div class="schedule-table-content-day">
+                        9
+                    </div>
+                    <div class="schedule-table-content-day">
+                        9
+                    </div>
+                    <div class="schedule-table-content-day">A</div>
+                </div>
+                <div class="schedule-table-content-row">
+                    <div class="schedule-table-content-day"> 
+                        <p>7</p>                  
+                    </div>
+                    <div class="schedule-table-content-day">
+                        Kinh tế chính trị Mác - Lênin
+                    </div>
+                    <div class="schedule-table-content-day">3</div>
+                    <div class="schedule-table-content-day">
+                        6
+                    </div>
+                    <div class="schedule-table-content-day">
+                        6
+                    </div>
+                    <div class="schedule-table-content-day">
+                        6
+                    </div>
+                    <div class="schedule-table-content-day">C+</div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="footer">
+        <div class="margin-40 footer-logo">
+            <img src="../img/LOGO.png" alt="logo">
+        </div>
+        <div class="margin-40 footer-info">
+            <div>Follow US</div>
+            <div><a href="#"><i class="ti-instagram"></i>Instagram</a></div>
+            <div><a href="#"><i class="ti-facebook"></i>Facebook</a></div>
+            <div><a href="#"><i class="ti-youtube"></i>Youtube</a></div>
+            <div><a href="#"><i class="ti-pinterest"></i>Pinterest</a></div>
+            <div><a href="#"><i class="ti-twitter"></i>Twitter</a></div>
+            <div><a href="#"><i class="ti-linkedin"></i>Linkedin</a></div>
+        </div>
+        <div class="margin-40 footer-address">
+            <div>Address</div>
+            <p><i class="ti-location-pin"></i>97 Võ Văn Tần Quận 3, Thành Phố HCM</p>
+            <p><i class="ti-mobile"></i>Phone: <a href="tell:+0967136653">+84967042099</a></p>
+            <p><i class="ti-email"></i>Email: <a href="mailto:mail@mail.com">mailOU@mail.com</a></p>
+        </div>
+        <div class="margin-40 footer-map">
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d501726.1645016953!2d106.07136337363603!3d10.754844330129616!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x317529292e8d3dd1%3A0xf15f5aad773c112b!2zSOG7kyBDaMOtIE1pbmgsIFRow6BuaCBwaOG7kSBI4buTIENow60gTWluaCwgVmnhu4d0IE5hbQ!5e0!3m2!1svi!2sus!4v1690198399058!5m2!1svi!2sus"
+                width="250" height="250" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+    </div>
+    <div id="gotop">
+        <i class="ti-arrow-circle-up"></i>
+    </div>
+</div>
+<script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+<script src="../js/javascript.js"></script>
+    </div>
+</body>
+</html>
