@@ -70,7 +70,7 @@ $(document).ready(function () {
         }, 2000)
     })
 })
-/* danh muc sp */
+/* danh muc hỗ trợ */
 $(document).ready(function () {
     $(window).scroll(function () {
         if ($(this).scrollTop() > 50) {
@@ -79,7 +79,7 @@ $(document).ready(function () {
             $('.danhmuc').removeClass('fixed');
     })
 })
-/* fixed cham soc */
+/* fixed hỗ trọ học tập */
 $(document).ready(function () {
     $(window).scroll(function () {
         if (($(this).scrollTop() > 257) && ($(this).scrollTop() < 2369)) {

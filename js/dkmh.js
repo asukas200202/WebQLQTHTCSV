@@ -2,43 +2,43 @@
 var subjectList = [
     {
         id: "QTTC",
-        name: "Quản trị tài chính IT01",
+        name: "Môn Quản trị tài chính IT1 Thứ 2,3: 7.00 - 11.00 ",
         class: "IT01",
         img: "../img/s9.jpg",
         course: 3,
         price_course: 700000,
         teacher: "Phạm Quốc Anh",
-        timeLine: ["mon2", "tue1"],
+        timeLine: ["mon1", "tue1"],
     },
     {
         id: "GTQT",
-        name: "Giáo trình luật quốc tế IT01",
+        name: "Môn học luật quốc tế IT1 Thứ 2,3,4: 13.00 - 17.00",
         class: "IT01",
         img: "../img/s8.jpg",
         course: 4,
         price_course: 700000,
         teacher: "Phạm Quốc Anh",
-        timeLine: ["mon1", "tue3", "wed1"],
+        timeLine: ["mon2", "tue2", "wed2"],
     },
     {
         id: "PLDC",
-        name: "Pháp luật đại cương IT01",
+        name: " Môn Pháp luật đại cương IT1 Thứ 5,6: 18.00 - 21.00",
         class: "IT01",
         img: "../img/â1.jpg",
         course: 4,
         price_course: 700000,
         teacher: "Phạm Quốc Anh",
-        timeLine: ["thur1", "fri3"],
+        timeLine: ["thur3", "fri3"],
     },
     {
         id: "LTM",
-        name: "Luật thương mại IT01",
+        name: "Môn học Luật thương mại IT1 Thứ 5,7: 7.00 - 11.00",
         class: "IT01",
         img: "../img/â5.jpg",
         course: 3,
         price_course: 700000,
         teacher: "Phạm Quốc Anh",
-        timeLine: ["thur3", "sat2"],
+        timeLine: ["thur1", "sat1"],
     },
 ]
 
@@ -133,7 +133,7 @@ window.onload = () => {
                             <button id="btn" class="buy" onclick="addCart(${index})">Đăng ký</button>
                         </div>
                         <div class="bot">
-                            <h1 id="name" title="Môn đo lường cảm biến" class="body-item-h1" >${sub.name}</h1>
+                            <h1 id="name" title="Môn học" class="body-item-h1" >${sub.name}</h1>
                             <p  id="price" class="body-item-p"><span>${sub.price_course * sub.course}</span><sup>₫</sup></p>
                         </div>
                     </div>

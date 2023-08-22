@@ -108,9 +108,9 @@ var timeLine = [
 var as2D = new Array(); 
 
 as2D[0] = new Array("Time/Date", "Mon", "Tue", "Wed", "Thur", "Fri", "Sat");
-as2D[1] = new Array("Ca 1:7.00-11.00", "Trống", "Trống", "Trống", "Trống", "Trống", "Trống");
-as2D[2] = new Array("Ca 2:13.00-17.00", "Trống", "Trống", "Trống", "Trống", "Trống", "Trống");
-as2D[3] = new Array("Ca 3:18.00-21.00", "Trống", "Trống", "Trống", "Trống", "Trống", "Trống");
+as2D[1] = new Array("Ca 1:", "Trống", "Trống", "Trống", "Trống", "Trống", "Trống");
+as2D[2] = new Array("Ca 2:", "Trống", "Trống", "Trống", "Trống", "Trống", "Trống");
+as2D[3] = new Array("Ca 3:", "Trống", "Trống", "Trống", "Trống", "Trống", "Trống");
 
 
 
